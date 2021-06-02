@@ -102,7 +102,7 @@ public class Inscription extends AppCompatActivity {
                         Log.v("status",response.body().getStatus()+"");
 
 
-                        Intent i = new Intent(Inscription.this, Navigation.class);
+                        Intent i = new Intent(Inscription.this, LoginActivity.class);
                         startActivity(i);
                     }
 
